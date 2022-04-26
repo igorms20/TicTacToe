@@ -18,7 +18,7 @@ for (i = 0; i < espacos.length; i++) {
            celula.innerHTML = '<img src="./assets/img/O.svg" alt="">'
            xTurn = true
         }        
-    })
+    }, {once : true})
 }
 
 const XSymbol = '<img src="./assets/img/X.svg" alt="">'
